@@ -6,7 +6,7 @@ class HomeEmage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Text(
-                'dd',
+                'chao em',
                 style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 15,
