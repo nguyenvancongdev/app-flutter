@@ -13,24 +13,12 @@ void main() {
 }
 
 
-
-// class MyHomePage extends StatefulWidget {
-//   const MyHomePage({super.key, this.title = ''});
-
-
-
-//   final String title;
-
-//   @override
-//   State<MyHomePage> createState() => _MyHomePageState();
-// }
-
-class MyHomePage extends GetWidget {
+class MyHomePage extends GetView {
    MyHomePage({super.key});
 
   var count = 0.obs;
   void increment() {
-    count++;
+    count == count-1;
   }
 
 
