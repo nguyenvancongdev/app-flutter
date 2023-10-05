@@ -1,8 +1,10 @@
-import 'package:get/get.dart';
-statís
-static final routes = [
-    GetPage(
-        name: _Paths.HOME,
-        page: ()=> HomeView
-    )
-]
+part of 'app_pages.dart';
+
+abstract class Routes {
+  static const home = _Paths.home;
+}
+
+abstract class _Paths {
+  static const home = '/home';
+  static const login = '/login';
+}

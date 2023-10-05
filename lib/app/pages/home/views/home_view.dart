@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controlers/home_controller.dart';
+import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
   @override
@@ -10,6 +10,6 @@ class HomeView extends GetView<HomeController> {
         title: Text('HomeView'),
         centerTitle: true,
       ),
-    )
+    );
   }
 }
