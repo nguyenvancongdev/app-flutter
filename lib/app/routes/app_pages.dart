@@ -5,7 +5,7 @@ import '../pages/home/bindings/home_binding.dart';
 import '../pages/login/bindings/login_binding.dart';
 part 'app_routes.dart';
 class AppPages {
-  static const INTIAL = ROUTER.home;
+  static const intial = Routes.home;
   static final router = [
     GetPage(
       name: _Paths.home,
@@ -17,5 +17,5 @@ class AppPages {
       page: () => LoginView(),
       binding: LoginBinding(),
     ),
-  ]
+  ];
 }

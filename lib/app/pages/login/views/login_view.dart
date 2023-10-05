@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/home_controller.dart';
+import '../controllers/login_controller.dart';
 
-class HomeView extends GetView<HomeController> {
+class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('HomeViewr'),
+        title: Text('day la trang login'),
         centerTitle: true,
       ),
     );
