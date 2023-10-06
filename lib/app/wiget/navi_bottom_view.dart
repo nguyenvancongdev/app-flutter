@@ -7,7 +7,7 @@ class NaviBottomView extends GetView<NaviBottomController> {
   Widget build(BuildContext context){
     Get.put(NaviBottomController());
    return 
-    BottomNavigationBar(
+    Obx(() => BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
@@ -25,6 +25,7 @@ class NaviBottomView extends GetView<NaviBottomController> {
           selectedItemColor: Colors.amber[800],
           currentIndex: controller.selectedIndex.value,
           onTap: (index) => controller.onItemTapped(index),   
+    )
    );
   }
 }
