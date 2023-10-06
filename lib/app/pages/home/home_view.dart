@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/home_controller.dart';
-import 'package:congnguyen/app/wiget/navi/navi_bottom.dart';
+import 'home_controller.dart';
+import 'wiget/navi_bottom_view.dart';
 class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context){
@@ -11,7 +11,7 @@ class HomeView extends GetView<HomeController> {
         centerTitle: true,
       ),
       bottomNavigationBar: 
-         NaviBottom()
+         NaviBottomView()
     );
   }
 }

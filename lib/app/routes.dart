@@ -1,9 +1,19 @@
 import 'package:get/get.dart';
-import '../pages/home/views/home_view.dart';
-import '../pages/login/views/login_view.dart';
-import '../pages/home/bindings/home_binding.dart';
-import '../pages/login/bindings/login_binding.dart';
-part 'app_routes.dart';
+import 'pages/home/home_view.dart';
+import 'pages/login/views/login_view.dart';
+import 'pages/home/home_binding.dart';
+import 'pages/login/bindings/login_binding.dart';
+
+
+abstract class Routes {
+  static const home = _Paths.home;
+}
+
+abstract class _Paths {
+  static const home = '/home';
+  static const login = '/login';
+}
+
 class AppPages {
   static const intial = Routes.home;
   static final router = [
