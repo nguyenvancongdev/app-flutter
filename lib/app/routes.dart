@@ -20,12 +20,10 @@ class AppPages {
     GetPage(
       name: _Paths.home,
       page: () => HomeView(),
-      // binding: HomeBinding()
     ),
     GetPage(
       name: _Paths.login,
       page: () => LoginView(),
-      // binding: LoginBinding(),
     ),
   ];
 }
