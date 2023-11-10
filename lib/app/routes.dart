@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'pages/home/home_view.dart';
 import 'pages/login/login_view.dart';
-import 'pages/home/home_binding.dart';
-import 'pages/login/login_binding.dart';
+// import 'pages/home/home_binding.dart';
+// import 'pages/login/login_binding.dart';
 
 
 abstract class Routes {
@@ -20,12 +20,10 @@ class AppPages {
     GetPage(
       name: _Paths.home,
       page: () => HomeView(),
-      binding: HomeBinding()
     ),
     GetPage(
       name: _Paths.login,
       page: () => LoginView(),
-      binding: LoginBinding(),
     ),
   ];
 }

@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'navi_bottom_controller.dart';
-class NaviBottomView extends GetView<NaviBottomController> {
+class NaviBottomView extends GetView {
 
   @override
   Widget build(BuildContext context){
-    Get.put(NaviBottomController());
    return 
     Obx(() => BottomNavigationBar(
           items: const <BottomNavigationBarItem>[

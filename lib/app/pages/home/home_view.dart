@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'home_controller.dart';
-import 'wiget/navi_bottom_view.dart';
-class HomeView extends GetView<HomeController> {
+class HomeView extends GetView {
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -10,8 +8,6 @@ class HomeView extends GetView<HomeController> {
         title: Text('HomeViewr'),
         centerTitle: true,
       ),
-      bottomNavigationBar: 
-         NaviBottomView()
     );
   }
 }

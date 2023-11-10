@@ -1,1 +1,0 @@
-export 'package:congnguyen/app/wiget/navi_bottom_view.dart';
