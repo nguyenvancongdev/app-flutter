@@ -1,9 +1,7 @@
 import 'package:get/get.dart';
 import 'pages/home/home_view.dart';
 import 'pages/login/login_view.dart';
-// import 'pages/home/home_binding.dart';
-// import 'pages/login/login_binding.dart';
-
+import 'pages/float/float_view.dart';
 
 abstract class Routes {
   static const home = _Paths.home;
@@ -11,6 +9,7 @@ abstract class Routes {
 
 abstract class _Paths {
   static const home = '/home';
+  static const floatButton = '/float';
   static const login = '/login';
 }
 
@@ -20,6 +19,10 @@ class AppPages {
     GetPage(
       name: _Paths.home,
       page: () => HomeView(),
+    ),
+    GetPage(
+      name: _Paths.floatButton,
+      page: () => MyOverlayWindow(),
     ),
     GetPage(
       name: _Paths.login,

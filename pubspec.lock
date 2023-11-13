@@ -62,6 +62,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_floatwing:
+    dependency: "direct main"
+    description:
+      name: flutter_floatwing
+      sha256: "563b347f21b2fd8c59a75145620a8175ab456fee5b0cca2e64269acdb6ab7252"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   flutter_lints:
     dependency: "direct dev"
     description:
