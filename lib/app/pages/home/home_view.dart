@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:device_imei/device_imei.dart';
+
 class HomeView extends GetView {
   final myController = TextEditingController();
+  // String imei = await DeviceImei.getImei();
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('HomeVirrrrewr'),
+        title: Text('rrr'),
         centerTitle: true,
       ),
       body:  Column(
         children: <Widget>[
+
+     const Text('HomeVirrrrewr'),
      Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
           child: TextField(
