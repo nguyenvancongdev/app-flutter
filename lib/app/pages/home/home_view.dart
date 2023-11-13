@@ -35,7 +35,7 @@ class HomeView extends GetView {
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
           ),
           onPressed: () { myController.text = '4444';},
-          child: const Text('TextButton'),
+          child: const Text('Text Button'),
         )
         ]
       ),
