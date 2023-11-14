@@ -7,7 +7,21 @@ class LoginView extends GetView {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('day la trang login'),
+        leading: const BackButton(
+            color: Colors.black
+        ),
+        title: const Text('day la trang login'),
+        actions: <Widget>[
+          IconButton(
+          icon: Icon(
+          Icons.settings,
+          color: Colors.white,
+        ),
+        onPressed: () {
+        
+        },
+    )
+  ],
         centerTitle: true,
       ),
     );
