@@ -10,7 +10,7 @@ void main() {
     //   initialRoute: AppPages.intial,
     //   getPages: AppPages.router,
     // ),
-    MyApp(name: '4444', age: 4)
+    MyApp()
    ); 
     
 }
